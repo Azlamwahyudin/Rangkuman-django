@@ -84,11 +84,21 @@ alur kerja nya sama dengan Basic Routing
 5. Membuat HTML sederhana 
 
 ## Template Extending
-Pada tahap ini, kita akan membuat Base Template / Template dasar untuk semua Halaman.
+1.Pada tahap ini, kita akan membuat Base Template / Template dasar untuk semua Halaman.
 2. Template utama yang isinya Base.html adalah file html utama yang akan menampung
 konten – konten dari Template Apps
 3. Didalam Apps akan dibuat folder template yang isinya hanya bagian – bagian konten
 4. Bagian Konten akan diextend / dimasukkan kedalam Base.html
+5. code nya seperti gambar dibawah
+
+![buku](https://user-images.githubusercontent.com/93004934/169105973-f5d3a555-975c-4223-8ecc-23c39678fef8.png)
+
+![base](https://user-images.githubusercontent.com/93004934/169106068-72184586-831a-4885-9e61-0c2c09d2ee06.png)
+
+![penerbit](https://user-images.githubusercontent.com/93004934/169106286-ca2bcbb7-165f-4f7b-86ec-56ee82afc2c4.png)
+
+![judul](https://user-images.githubusercontent.com/93004934/169106450-ef73543d-d096-4d15-857f-d5a39ea5af7d.png)
+
 
 ## Static File
 Static File adalah kumpulan File CSS, Java Script, dan gambar. Static File ini digunakan untuk mempercantik / memperindah tampilan Aplikasi yang dibuat dan memerikan pengalaman kenyamanan saat Aplikasi digunakan.
