@@ -26,12 +26,20 @@ server, dll
 ## MEMBUAT PROJECT APLIKASI PERPUSTAKAAN
 1. cd Desktop / #Untuk menyimpan Project di Halaman Desktop
 2. Django-admin startproject perpus #Perintah ini untuk membuat Project baru Bernama Perpus
+
+![file project](https://user-images.githubusercontent.com/93004934/169049236-b3b02d71-7772-47ce-8b83-7ea38571a5dc.png)
+
+
 3. Didalam Folder Project Perpus terdapat :
   -Manage.py #Ini adalah file Perintah untuk berinteraksi dengan Project Django
   - __init__.py #Untuk memberitahukan Python bahwa Perpus adalah sebuah Package
   - Setting.py #Berisikan File Konfigurasi / Pengaturan seperti Konfigurasi Template, Database, dll
   - Urls.py #Berisikan pola – pola URL
   - Wsgi.py #Untuk development Project yang melibatkan Web server yang kompetibel dengan Wsgi / Mengonline-kan Project
+
+![isi dari perpus](https://user-images.githubusercontent.com/93004934/169049404-40a4fb38-8b3d-4bb8-820c-ddd6031b05bd.png)
+
+
 4. Python manage.py runserver #Untuk menjalankan Project dan mendapatkan alamat Project Django yang akan dibuat
 
 ## Apa Itu Basic Routing
@@ -49,6 +57,9 @@ django-admin startapp perpustakaan  # cara pertama
 
 python manage.py startapp perpustakann  # cara kedua
 
+![membuat apps](https://user-images.githubusercontent.com/93004934/169049554-dfcccb91-2531-4f7a-8f6c-0a0c2f7ae81c.png)
+
+
 ## Membuat Views
 Alur yang digunakan untuk membuat Views ini adalah Client, URLConf, View dan memberikan Response kepada Client. Views diciptakan untuk memenuhi Request dari Client. 
 alur kerja nya sama dengan Basic Routing
@@ -58,7 +69,11 @@ alur kerja nya sama dengan Basic Routing
 1. Pada tahap ini, Alur yang digunakan mulai berkembang. Dimulai dari Client, URLConf, View, dan Template.
 2. Pada bagian Settings.py Line 58. Tambahkan ‘DIRS’ : [‘template’]
 3. Buat Folder templates satu Level dengan settings, lalu buiat buku.html
-4. Membuat HTML sederhana 
+
+![seting template](https://user-images.githubusercontent.com/93004934/169049738-5d8a8900-1cb3-4c30-b7d7-bf5ad4038965.png)
+
+
+5. Membuat HTML sederhana 
 
 ## Template Extending
 Pada tahap ini, kita akan membuat Base Template / Template dasar untuk semua Halaman.
