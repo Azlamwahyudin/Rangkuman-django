@@ -42,6 +42,14 @@ server, dll
 
 4. Python manage.py runserver #Untuk menjalankan Project dan mendapatkan alamat Project Django yang akan dibuat
 
+![alamat project](https://user-images.githubusercontent.com/93004934/169068728-e9a34bf4-aba7-4df7-be1d-738a2f5e20aa.png)
+
+5. tampilan awal project kita
+
+![halaman django](https://user-images.githubusercontent.com/93004934/169068985-5bd4090e-ab01-430e-a2df-9fff524b68f1.png)
+
+
+
 ## Apa Itu Basic Routing
 1. Client memberikan Request untuk mengakses Halaman Buku pada Server Django namun
 PAGE NOT FOUND. Karena URL Buku yang di Request belum ada di Server.
